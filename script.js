@@ -14,6 +14,7 @@ const carousel = {
         this.setupSlides();
         this.createNavDots();
         this.addEventListeners();
+        this.updateCarousel();
         this.startAutoPlay();
     },
 
