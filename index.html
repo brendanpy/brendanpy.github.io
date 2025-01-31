@@ -6,34 +6,57 @@
     <title>Wing AI - Your Intelligent Assistant</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="logo">Wing AI</div>
-        <div class="nav-links">
-            <a href="#features">Features</a>
-            <a href="#trial">Try Now</a>
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="Wing AI Logo">
+                <span>Wing AI</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#showcase">Showcase</a>
+                <a href="#support">Support</a>
+                <a href="#download" class="cta-button-small">Download</a>
+            </div>
         </div>
     </nav>
 
-    <header class="hero">
-        <h1>Managing Life Just Got Easier</h1>
-        <p>Your intelligent assistant that understands, responds, and streamlines your daily routines</p>
-        <button class="cta-button">Start Free Trial</button>
+    <header class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Wing AI: <span class="gradient-text">Fly Through Your Day with Ease</span></h1>
+                <p>Your intelligent assistant that understands and streamlines your daily routines</p>
+                <div class="hero-buttons">
+                    <button class="cta-button">Start Free Trial</button>
+                    <button class="secondary-button">Watch Demo</button>
+                </div>
+            </div>
+            
+            <div class="hero-carousel">
+                <div class="device-mockup">
+                    <div class="device-frame">
+                        <div class="device-screen">
+                            <div class="carousel">
+                                <div class="slides">
+                                    <img src="screen1.jpg" alt="Financial Dashboard">
+                                    <img src="screen2.jpg" alt="Health Tracking">
+                                    <img src="screen3.jpg" alt="Task Management">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="device-notch"></div>
+                    </div>
+                    <button class="carousel-prev">←</button>
+                    <button class="carousel-next">→</button>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section id="showcase" class="carousel-section">
-        <h2>Experience Wing AI</h2>
-        <div class="carousel">
-            <div class="slides">
-                <img src="screen1.jpg" alt="Financial Dashboard">
-                <img src="screen2.jpg" alt="Health Tracking">
-                <img src="screen3.jpg" alt="Task Management">
-            </div>
-            <button class="carousel-prev">←</button>
-            <button class="carousel-next">→</button>
-        </div>
-    </section>
+
 
     <section id="features" class="features">
         <h2>What Can Your AI Assistant Do?</h2>
@@ -75,7 +98,22 @@
                 <a href="mailto:brendan@learnfusion.ai" class="support-card">
                     <i class="fas fa-envelope"></i>
                     <h3>Email Support</h3>
-                    <p>Get direct assistance</p>
+                    <p>Get direct assistance from our support team</p>
+                </a>
+                <a href="https://support.wingai.app" class="support-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Documentation</h3>
+                    <p>Browse our detailed guides and FAQs</p>
+                </a>
+                <a href="https://community.wingai.app" class="support-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Community</h3>
+                    <p>Join our user community for tips and support</p>
+                </a>
+                <a href="https://support.wingai.app/tutorials" class="support-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Tutorials</h3>
+                    <p>Watch step-by-step video guides</p>
                 </a>
             </div>
         </div>
